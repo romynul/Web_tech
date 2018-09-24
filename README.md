@@ -1,2 +1,2 @@
-# Web_tech Lab_2
+# Web_tech
 Here is Full Web tech Course Lab Code
