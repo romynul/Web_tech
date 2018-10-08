@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>RS Dream World</title>
+    <style>
+        .rs_div
+        {
+            display: block;
+            float: left;
+            position: relative;
+        }
+
+
+        .menu ul {
+            margin: 20px 0px;
+        }
+        .menu ul li
+        {
+            text-decoration: none;
+            display: block;
+            position: relative;
+            float: left;
+        }
+        .menu ul li a
+        {
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 16px;
+            color: #ffffff;
+            padding: 17px 24px;
+
+
+        }
+
+        .menu ul li a:hover
+        {
+            color: #f6483b;
+
+
+        }
+
+        .active {
+            color: #f6483b!important;
+
+        }
+        .body_text h1 {
+            margin: 30px 0px;
+            position: initial;
+            top: 50%;
+            font-size: 150px;
+            color: #fff;
+            font-weight: 700;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: cover;
+        }
+        button.rs_button {
+            padding: 10px 35px;
+            color: #fff;
+            font-family: Montserrat, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: #f6483b;
+            border: 1px solid #f6483b;
+        }
+        button.rs_button:hover {
+            padding: 10px 35px;
+            color: #f6483b;
+            font-family: Montserrat, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: transparent;
+            border: 1px solid #f6483b;
+            cursor: pointer;
+        }
+
+        .contact
+        {
+            width:50%;
+            display:block;
+            margin:0 auto;
+        }
+
+        input
+        {
+            padding: 7px;
+            background: transparent;
+            border: 2px solid #b7b7b7;
+            margin: 5px 0px;
+			color:#fff;
+
+        }
+
+        input#name {
+            width: 46%;
+            display: block;
+            float: left;
+            margin-right: 10px;
+            position: relative;
+        }
+
+        input#email {
+            width: 46%;
+            display: block;
+            float: left;
+            position: relative;
+        }
+        input#phone {
+            width: 96%;
+            margin-bottom: 10px;
+        }
+
+        textarea#description {
+            width: 97.5%;
+            background: transparent;
+            border: 2px solid #b7b7b7;
+			color:#fff;
+        }
+        input[type="submit"] {
+            padding: 10px 35px;
+            color: #fff;
+            font-family: Montserrat, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: #f6483b;
+            border: 1px solid #f6483b;
+        }
+
+        input[type="submit"]:hover {
+            padding: 10px 35px;
+            color: #f6483b;
+            font-family: Montserrat, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: transparent;
+            border: 1px solid #f6483b;
+            cursor: pointer;
+        }
+        hr {
+            margin-bottom: 5%;
+        }
+    </style>
+</head>
+<body style="background-color: #000000;">
+<div class="logo rs_div" style="width:50%; height:100px;">
+    <img src="../images/main_logo.png" style="max-width:13%; margin-left: 10%;" >
+</div>
+<div class="menu rs_div" style="width:50%; height:100px;">
+    <ul>
+        <li><a href='../index.php'>Home</a></li>
+            <li><a href='education.html'>Education</a></li>
+            <li><a href='project.html'>Projects</a></li>
+            <li><a class="active" href='contact.html'>Contact</a></li>
+			 <li><a href='registration.php'>Registration</a></li>
+			  <li><a href='login.php'>Login</a></li>
+    </ul>
+</div>
+
+<h1 style="color: #ffffff; text-align: center; font-size: 40px; font-family: Montserrat, sans-serif;">Contact</h1>
+<hr align="center" width="20%">
+<div class="contact">
+<form action="#">
+    <input type="text" id="name" name="name" placeholder="Your name..">
+    <input type="email" id="email" name="email" placeholder="Your email..">
+    <input type="text" id="phone" name="phone" placeholder="Your phone..">
+    <textarea id="description" name="description" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+</div>
+
+</form>
+
+</body>
+</html>
