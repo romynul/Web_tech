@@ -1,0 +1,50 @@
+*{color: #fff;}
+
+.bg{ background: url(../img/BG5.jpg) no-repeat; 
+									
+									height:100vh;
+									background-size:auto ;
+									
+									
+									
+									
+									}
+									
+									
+.logTab{ border : 0px solid #fff;
+					padding: 50px 60px;
+					margin-top: 20vh;
+					
+					
+					-webkit-box-shadow: 0px -1px 111px 13px rgba(0,0,0,0.62);
+					-moz-box-shadow: 0px -1px 111px 13px rgba(0,0,0,0.62);
+					box-shadow: 0px -1px 111px 13px rgba(0,0,0,0.62);	
+					
+					
+					border-radius: 23px 81px 108px 72px;
+					-moz-border-radius: 23px 81px 108px 72px;
+					-webkit-border-radius: 23px 81px 108px 72px;
+					border: 0px hidden #000000;
+					
+					
+			
+}
+
+.bar{  
+					text-align: center;
+					
+					border : 2px solid #fff;
+
+					-webkit-box-shadow: 0px -1px 111px 13px rgba(0,0,0,0.62);
+					-moz-box-shadow: 0px -1px 111px 13px rgba(0,0,0,0.62);
+					 box-shadow: 0px -1px 111px 13px rgba(0,0,0,0.62);	
+					 
+					 
+					
+					 
+ }
+ 
+ a{
+	 color: white;
+ }
+									

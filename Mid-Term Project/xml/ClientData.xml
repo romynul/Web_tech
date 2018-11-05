@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<documents>
+  <data>
+    <fullName>Ariful Islam</fullName>
+    <userName>fahim123</userName>
+    <contactName>01712844177</contactName>
+    <alternativeContactNumber>01687759686</alternativeContactNumber>
+    <password>123</password>
+    <type>Seller</type>
+    <gender>male</gender>
+  </data>
+  <data>
+    <fullName>Antonin</fullName>
+    <userName>ant123</userName>
+    <contactName>01687759686</contactName>
+    <alternativeContactNumber>01712844177</alternativeContactNumber>
+    <password>321</password>
+    <type>Buyer</type>
+    <gender>male</gender>
+  </data>
+  <data>
+    <fullName>Antonin</fullName>
+    <userName>ant123</userName>
+    <contactName>01687759686</contactName>
+    <alternativeContactNumber>01712844177</alternativeContactNumber>
+    <password>123321</password>
+    <type>Seller</type>
+    <gender>male</gender>
+  </data>
+  <data>
+    <fullName>Shuv</fullName>
+    <userName>asdf</userName>
+    <contactName>0176688</contactName>
+    <alternativeContactNumber>0178816</alternativeContactNumber>
+    <mail>rhs@gmai.com</mail>
+    <password>123</password>
+    <type>Seller</type>
+    <gender>male</gender>
+  </data>
+  <data>
+    <fullName>Shuv</fullName>
+    <userName>asdf33</userName>
+    <contactName>0176688</contactName>
+    <alternativeContactNumber>0178816</alternativeContactNumber>
+    <mail>rhs@gmai.com</mail>
+    <password>123</password>
+    <type>Buyer</type>
+    <gender>male</gender>
+  </data>
+</documents>
