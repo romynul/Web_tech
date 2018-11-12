@@ -1,0 +1,46 @@
+Name: Raisa Kamal  
+ID:16-31939-1
+
+
+
+1)What is Meltdown?
+
+Meltdown is clalled security vulnerability.It is a hardware vulnerability which affected Intel x86,microprocessors,IBM power processors and some ARM-based microprocessors.
+It allows a rough process to read all the memory even when it is not authorized to do.It affects a wide range of systems.Researchers have indicated that the Meltdown vulnerability is exclusive 
+to intel processors.It breaks the most fundamental isolated between user applications and the operating system.
+
+2)What is Spectre?
+
+Spectre is a vulnerability that affects modern microprocessors that perform branch prediction.It also tricks a program into accessing arbitrary locations in the program's memory space. An 
+attracker may read the content of accessed memory and thus potentially obtain Meltdown but it is also harder to mitigate.By using spectre it is possible to prevent specific known explotis 
+through software patches.
+
+
+3)How they work?
+
+We have heard about security isseus called Meltdown and Spectre that allow cyber criminals to steal sensitive information from the cloud.Patches have been created to protect many affected systems 
+and products and efforts are underway to update others.But the bad news is these fixes might slow down computer performance.These threads are came from speculative execution.It lets devices do 
+some work ahead of time to speed up routine tasks.But it also creates a security vulnerability nobody expected.For example,
+Think the computer as a resturant and the customer order the same food everyday.Eventually the cook sees the pattern and starts making the order ahead of time.But if the customer decided to order 
+something different oneday now the cook has to throw away the prepared breakfast and start over .Spectre works like this.Whenever computers perform calculation that aren't acctually needed,the
+results are thrown away.This data ends up in an unsecred part of the computers cache memory,where unauthorised users can access it through a side channel.Back in 1960s when speculative execution 
+was invented computers were very self-contained.Since there was no way to see the data being thrown away.Nobody thought it was a risk and it was never secured.Today computers and mobile devices 
+share system resources with many appications and environments.Normally sharing is good but when unprotected data from spectre ends up in shared memory it can became a serious problem
+CyberCriminals use a side channel to sneak in and hijack the data.Even worse they can trick computers  into loading any data like passwords and account information into the shared memory so they
+can steal it.
+
+
+4)How to protect your computer from meltdown and spectre?
+
+When reserachers indentified them,they brought them to the attention of major technology comapnies.Hundreds of engineers came together to create patches that block Meltdown and Spectre
+attracks.It's stay up to  date with the latest realases of operating systems.In the future,system designs willchange to eliminate these kinds of vulnerabilities for good.The reality is,computer will always have some
+security issuses thats why it's so important to havemany engineers and developers looking for them as possible and for companies to come together and solve problems that affect us all.
+
+
+
+5)What architecture they used?
+
+They used Intel x86 microprocessors,IBM POWER processors  and some  ARM-based microprocessors.
+ 
+
+

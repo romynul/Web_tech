@@ -1,0 +1,7 @@
+1.What is meltdown and Spectre?
+Answer: Meltdown and spectre are responsible for absorbing the critical vulnerabilities of a computer  processing system.These hardware vulnerabities are dangeraous and they give the permission to programs to destroy or snitch data from which are processed in the computer.
+
+2.How to save from meltdown and spectre?
+Answer:We can protect our PCs against meltdown and spectre by updating our operating system,the firware of the chip inside our PCs.And also the web browsers should be updated as one change won't fully save our system from the defects.
+
+
